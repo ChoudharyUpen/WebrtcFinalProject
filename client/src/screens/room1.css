@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(241, 165, 165); /* You can change this to any color you want */
+}
+
+
+
+
+
+
+/* ButtonStyles.css */
+/* Add a smooth background gradient and vibrant hover effects */
+.callbutton {
+    background: linear-gradient(45deg, #ff6a00, #ff1493);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 2px solid #ff1493;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .callbutton:hover {
+    background: linear-gradient(45deg, #ff1493, #ff6a00);
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .callbutton:active {
+    background: #ff6a00;
+    transform: translateY(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .callbutton:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.7);
+  }
+  
+/* /////////////////////////////////////////////////////////// */
+  .video-container {
+    display: flex;
+    justify-content: space-around; /* ya space-between / center as per your need */
+    align-items: flex-start;
+    flex-wrap: wrap; /* optional - agar mobile me neeche aa jaye to */
+    gap: 20px; /* videos ke beech gap */
+    margin-top: 20px;
+    
+  }
+  
+  .video-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
